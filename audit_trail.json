@@ -1,0 +1,73 @@
+{
+  "case_id": "029",
+  "examiner": "A. Adhikari",
+  "generated_utc": "2026-08-18T20:02:29Z",
+  "entries": [
+    {
+      "seq": 1,
+      "timestamp_utc": "2026-08-18T20:02:29Z",
+      "phase": "Evidence Preservation",
+      "tool": "ffxforensics.hashing",
+      "command": "sha256sum -c Firefox-Linux-Evidence-all.sha256",
+      "explanation": "Verified the evidence set against its acquisition manifest",
+      "artefact": "/tmp/demo/working_directory/Firefox-Linux-Evidence-all.sha256",
+      "hash": "",
+      "outcome": "PASS"
+    },
+    {
+      "seq": 2,
+      "timestamp_utc": "2026-08-18T20:02:29Z",
+      "phase": "Analysing",
+      "tool": "ffxforensics.CaseAnalyser",
+      "command": "ffxforensics analyze /tmp/demo/working_directory/Firefox-Linux-Evidence",
+      "explanation": "Opened evidence directory for read-only artefact analysis",
+      "artefact": "/tmp/demo/working_directory/Firefox-Linux-Evidence",
+      "hash": "",
+      "outcome": "OK"
+    },
+    {
+      "seq": 3,
+      "timestamp_utc": "2026-08-18T20:02:29Z",
+      "phase": "Analysing",
+      "tool": "ffxforensics.parsers.places",
+      "command": "SELECT id, url, title, visit_count, last_visit_date FROM moz_places ORDER BY last_visit_date DESC",
+      "explanation": "Extracted 52 URLs, 56 visits, 19 searches, 11 bookmark rows",
+      "artefact": "places.sqlite",
+      "hash": "34d4e62cc60c53fe795427372d7a802d34c9dc2012c0bac925116a00e6db74df",
+      "outcome": "OK"
+    },
+    {
+      "seq": 4,
+      "timestamp_utc": "2026-08-18T20:02:29Z",
+      "phase": "Analysing",
+      "tool": "ffxforensics.parsers.cookies",
+      "command": "SELECT id, host, isHttpOnly, isSecure, sameSite, lastAccessed FROM moz_cookies",
+      "explanation": "Identified 24 cookies across 17 hosts",
+      "artefact": "cookies.sqlite",
+      "hash": "383f7aa57dec1803082f628a23f9a36878719c46a16f3023009eb6f4f18179a9",
+      "outcome": "OK"
+    },
+    {
+      "seq": 5,
+      "timestamp_utc": "2026-08-18T20:02:29Z",
+      "phase": "Analysing",
+      "tool": "ffxforensics.parsers.formhistory",
+      "command": "SELECT id, fieldname, value, timesUsed, lastUsed FROM moz_formhistory",
+      "explanation": "Recovered 19 typed form values",
+      "artefact": "formhistory.sqlite",
+      "hash": "4a9572cf0e5f324cd654506ff14fcf6f4ad0489c36d87568d235201384ca411c",
+      "outcome": "OK"
+    },
+    {
+      "seq": 6,
+      "timestamp_utc": "2026-08-18T20:02:29Z",
+      "phase": "Analysing",
+      "tool": "ffxforensics.analysis",
+      "command": "IndicatorEngine.assess() + build_timeline()",
+      "explanation": "Built 81-event timeline across 1 session(s); 85 artefacts matched indicators",
+      "artefact": "/tmp/demo/working_directory/Firefox-Linux-Evidence",
+      "hash": "",
+      "outcome": "OK"
+    }
+  ]
+}

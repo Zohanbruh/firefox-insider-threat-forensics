@@ -1,0 +1,82 @@
+timestamp,source,event_type,description,detail,severity,indicators
+2025-12-02 15:15:40,places.sqlite,visit:Inputted link or selected from suggestions,Google,https://www.google.com/,info,
+2025-12-02 15:16:22,places.sqlite,visit:Inputted link or selected from suggestions,NeoQuant sql error page exploit - Google Search,https://www.google.com/search?q=NeoQuant+sql+error+page+exploit&source=hp,critical,sql_injection;target_organisation;vulnerability_research
+2025-12-02 15:16:22,formhistory.sqlite,typed:searchbar-history,NeoQuant sql error page exploit,used 1x,critical,sql_injection;target_organisation;vulnerability_research
+2025-12-02 15:16:58,places.sqlite,visit:Interacted with link,What is SQL Injection? Tutorial & Examples | Web Security Academy,https://portswigger.net/web-security/sql-injection,high,sql_injection
+2025-12-02 15:17:12,places.sqlite,visit:Interacted with link,How does the SQL injection from the Bobby Tables XKCD comic work? - Stack Overflow,https://stackoverflow.com/questions/332365/how-does-the-sql-injection-from-bobby-tables-work,high,sql_injection
+2025-12-02 15:17:40,places.sqlite,visit:Inputted link or selected from suggestions,Test sql injection using browser only - Google Search,https://www.google.com/search?q=Test+sql+injection+using+browser+only&source=hp,high,sql_injection
+2025-12-02 15:17:40,formhistory.sqlite,typed:searchbar-history,Test sql injection using browser only,used 2x,high,sql_injection
+2025-12-02 15:18:05,places.sqlite,visit:Interacted with link,OWASP Web Security Testing Guide | OWASP Foundation,https://owasp.org/www-project-web-security-testing-guide/,medium,vulnerability_research
+2025-12-02 15:18:31,places.sqlite,visit:Inputted link or selected from suggestions,Find exposed database endpoints in API - Google Search,https://www.google.com/search?q=Find+exposed+database+endpoints+in+API&source=hp,high,api_enumeration
+2025-12-02 15:18:31,formhistory.sqlite,typed:searchbar-history,Find exposed database endpoints in API,used 1x,high,api_enumeration
+2025-12-02 15:18:52,places.sqlite,visit:Interacted with link,API Security News,http://apisecurity.io/,high,api_enumeration
+2025-12-02 15:18:55,places.sqlite,visit:302 reroute (temporary redirect),API Security News,https://apisecurity.io/,high,api_enumeration
+2025-12-02 15:19:06,places.sqlite,visit:Inputted link or selected from suggestions,Financial api sql injection examples - Google Search,https://www.google.com/search?q=Financial+api+sql+injection+examples&source=hp,high,sql_injection
+2025-12-02 15:19:06,formhistory.sqlite,typed:searchbar-history,Financial api sql injection examples,used 1x,high,sql_injection
+2025-12-02 15:19:22,places.sqlite,visit:Interacted with link,OWASP Web Security Testing Guide | OWASP Foundation,https://owasp.org/www-project-web-security-testing-guide/,medium,vulnerability_research
+2025-12-02 15:19:41,places.sqlite,visit:Inputted link or selected from suggestions,How to force debug mode using URL parameters - Google Search,https://www.google.com/search?q=How+to+force+debug+mode+using+URL+parameters&source=hp,critical,control_bypass
+2025-12-02 15:19:41,formhistory.sqlite,typed:searchbar-history,How to force debug mode using URL parameters,used 1x,critical,control_bypass
+2025-12-02 15:20:16,places.sqlite,visit:Inputted link or selected from suggestions,Bypass client-side validation by modifying URL - Google Search,https://www.google.com/search?q=Bypass+client-side+validation+by+modifying+URL&source=hp,critical,control_bypass
+2025-12-02 15:20:16,formhistory.sqlite,typed:searchbar-history,Bypass client-side validation by modifying URL,used 1x,critical,control_bypass
+2025-12-02 15:20:40,places.sqlite,visit:Interacted with link,HTTP request methods - MDN Web Docs,https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods,info,
+2025-12-02 15:21:00,places.sqlite,visit:Inputted link or selected from suggestions,Common api parameters that leak database info - Google Search,https://www.google.com/search?q=Common+api+parameters+that+leak+database+info&source=hp,high,api_enumeration
+2025-12-02 15:21:00,formhistory.sqlite,typed:searchbar-history,Common api parameters that leak database info,used 1x,high,api_enumeration
+2025-12-02 15:21:25,places.sqlite,visit:Interacted with link,OWASP API Security Top 10 2023,https://owasp.org/API-Security/editions/2023/en/0x11-t10/,high,api_enumeration;vulnerability_research
+2025-12-02 15:21:49,places.sqlite,visit:Inputted link or selected from suggestions,Check API vulnerabilities using chrome DevTools network tab - Google Search,https://www.google.com/search?q=Check+API+vulnerabilities+using+chrome+DevTools+network+tab&source=hp,medium,security_tooling;vulnerability_research
+2025-12-02 15:21:49,formhistory.sqlite,typed:searchbar-history,Check API vulnerabilities using chrome DevTools network tab,used 1x,medium,security_tooling;vulnerability_research
+2025-12-02 15:22:30,places.sqlite,visit:Interacted with link,SQL injection cheat sheet | Web Security Academy,https://portswigger.net/web-security/sql-injection/cheat-sheet,high,sql_injection;vulnerability_research
+2025-12-02 15:22:48,places.sqlite,visit:Interacted with link,What is SQL Injection? Tutorial & Examples | Web Security Academy,https://portswigger.net/web-security/sql-injection,high,sql_injection
+2025-12-02 15:23:11,places.sqlite,visit:Inputted link or selected from suggestions,Common api vectors.pdf download - Google Search,https://www.google.com/search?q=Common+api+vectors.pdf+download&source=hp,high,api_enumeration
+2025-12-02 15:23:11,formhistory.sqlite,typed:searchbar-history,Common api vectors.pdf download,used 1x,high,api_enumeration
+2025-12-02 15:23:28,places.sqlite,visit:Interacted with link,https://www.google.com/url?q=https://www.practical-devsecops.com/api-security-fundamentals/,https://www.google.com/url?q=https://www.practical-devsecops.com/api-security-fundamentals/,info,
+2025-12-02 15:23:29,places.sqlite,visit:302 reroute (temporary redirect),API Security Fundamentals ebook - Practical DevSecOps,https://www.practical-devsecops.com/api-security-fundamentals/,high,api_enumeration
+2025-12-02 15:24:02,places.sqlite,visit:Interacted with link,Common-API-Attack-Vectors.pdf,https://www.practical-devsecops.com/downloads/Common-API-Attack-Vectors.pdf,info,
+2025-12-02 15:24:02,places.sqlite,download,Common-API-Attack-Vectors.pdf,file:///home/users/mrao/Downloads/Common-API-Attack-Vectors.pdf,info,
+2025-12-02 15:24:15,places.sqlite,visit:302 reroute (temporary redirect),Thank you - Practical DevSecOps,https://www.practical-devsecops.com/thank-you/,info,
+2025-12-02 15:25:58,places.sqlite,visit:Inputted link or selected from suggestions,neo quant - Google Search,https://www.google.com/search?q=neo+quant&source=hp,critical,target_organisation
+2025-12-02 15:25:58,formhistory.sqlite,typed:searchbar-history,neo quant,used 1x,critical,target_organisation
+2025-12-02 15:26:16,places.sqlite,visit:Interacted with link,NeoQuant - Data Engineering & Digital Finance,https://neoquant.com/,critical,target_organisation
+2025-12-02 15:26:44,places.sqlite,visit:Interacted with link,Data Platform - NeoQuant,https://neoquant.com/products/data-platform/,critical,target_organisation
+2025-12-02 15:27:06,formhistory.sqlite,typed:q,api documentation,used 3x,high,api_enumeration
+2025-12-02 15:27:20,places.sqlite,visit:Interacted with link,About us - NeoQuant,https://neoquant.com/about/,critical,target_organisation
+2025-12-02 15:27:41,formhistory.sqlite,typed:q,database schema,used 1x,info,
+2025-12-02 15:27:55,places.sqlite,visit:Interacted with link,Contact - NeoQuant,https://neoquant.com/contact/,critical,target_organisation
+2025-12-02 15:28:57,places.sqlite,visit:Inputted link or selected from suggestions,Neoquant finance - internal API docs - Google Search,https://www.google.com/search?q=Neoquant+finance+-+internal+API+docs&source=hp,critical,api_enumeration;target_organisation
+2025-12-02 15:28:57,formhistory.sqlite,typed:searchbar-history,Neoquant finance - internal API docs,used 2x,critical,api_enumeration;target_organisation
+2025-12-02 15:29:03,places.sqlite,visit:302 reroute (temporary redirect),http://neoquant.com/white-papers,http://neoquant.com/white-papers,critical,target_organisation
+2025-12-02 15:29:07,places.sqlite,visit:Interacted with link,white papers - NeoQuant,https://neoquant.com/white-papers/,critical,competitor_research;target_organisation
+2025-12-02 15:29:09,formhistory.sqlite,typed:search,white paper,used 1x,info,
+2025-12-02 15:29:11,places.sqlite,bookmark,white papers - NeoQuant,https://neoquant.com/white-papers/,critical,competitor_research;target_organisation
+2025-12-02 15:29:31,places.sqlite,visit:Inputted link or selected from suggestions,sql injection cheat sheet - owasp - Google Search,https://www.google.com/search?q=sql+injection+cheat+sheet+-+owasp&source=hp,high,sql_injection;vulnerability_research
+2025-12-02 15:29:31,formhistory.sqlite,typed:searchbar-history,sql injection cheat sheet - owasp,used 1x,high,sql_injection;vulnerability_research
+2025-12-02 15:29:40,places.sqlite,visit:Interacted with link,SQL Injection | OWASP Foundation,https://owasp.org/www-community/attacks/SQL_Injection,high,sql_injection;vulnerability_research
+2025-12-02 15:29:45,places.sqlite,bookmark,SQL Injection | OWASP Foundation,https://owasp.org/www-community/attacks/SQL_Injection,high,sql_injection;vulnerability_research
+2025-12-02 15:29:52,places.sqlite,visit:Interacted with link,SQL Injection Prevention - OWASP Cheat Sheet Series,https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html,high,sql_injection;vulnerability_research
+2025-12-02 15:30:09,places.sqlite,visit:Inputted link or selected from suggestions,request inspector- test API requests - Google Search,https://www.google.com/search?q=request+inspector-+test+API+requests&source=hp,medium,security_tooling
+2025-12-02 15:30:09,formhistory.sqlite,typed:searchbar-history,request inspector- test API requests,used 1x,medium,security_tooling
+2025-12-02 15:30:12,formhistory.sqlite,typed:email,m.rao@neoquant.example,used 1x,critical,target_organisation
+2025-12-02 15:30:14,places.sqlite,visit:Interacted with link,Web Request Inspector & Probe Service | Request Inspector,https://requestinspector.com/,medium,security_tooling
+2025-12-02 15:30:20,places.sqlite,bookmark,Web Request Inspector & Probe Service | Request Inspector,https://requestinspector.com/,medium,security_tooling
+2025-12-02 15:30:26,places.sqlite,visit:Interacted with link,Web Request Inspector & Probe Service | Request Inspector,https://requestinspector.com/,medium,security_tooling
+2025-12-02 15:30:39,places.sqlite,visit:Inputted link or selected from suggestions,URLScan - analyse web behaviour - Google Search,https://www.google.com/search?q=URLScan+-+analyse+web+behaviour&source=hp,medium,security_tooling
+2025-12-02 15:30:47,places.sqlite,visit:Interacted with link,https://www.google.com/aclk?sa=l&ai=DChcSEwj,https://www.google.com/aclk?sa=l&ai=DChcSEwj,info,
+2025-12-02 15:30:48,places.sqlite,visit:302 reroute (temporary redirect),https://lp.similarweb.com/?utm_source=google&utm_medium=cpc,https://lp.similarweb.com/?utm_source=google&utm_medium=cpc,low,competitor_research
+2025-12-02 15:30:49,places.sqlite,visit:301 reroute (permanent redirect),Competitive Analysis | Similarweb,https://lp.similarweb.com/competitive-analysis/,low,competitor_research
+2025-12-02 15:30:54,places.sqlite,bookmark,Competitive Analysis | Similarweb,https://lp.similarweb.com/competitive-analysis/,low,competitor_research
+2025-12-02 15:31:14,places.sqlite,visit:Inputted link or selected from suggestions,chrome devtools network inspector guide - Google Search,https://www.google.com/search?q=chrome+devtools+network+inspector+guide&source=hp,medium,security_tooling
+2025-12-02 15:31:14,formhistory.sqlite,typed:searchbar-history,chrome devtools network inspector guide,used 1x,medium,security_tooling
+2025-12-02 15:31:19,places.sqlite,visit:Interacted with link,Inspect network activity | Chrome DevTools | Chrome for developers,https://developer.chrome.com/docs/devtools/network/,medium,security_tooling
+2025-12-02 15:31:22,places.sqlite,bookmark,Inspect network activity | Chrome DevTools | Chrome for developers,https://developer.chrome.com/docs/devtools/network/,medium,security_tooling
+2025-12-02 15:31:45,places.sqlite,visit:Interacted with link,Inspect network activity | Chrome DevTools | Chrome for developers,https://developer.chrome.com/docs/devtools/network/,medium,security_tooling
+2025-12-02 15:32:27,places.sqlite,visit:Inputted link or selected from suggestions,http://youtube.com/,http://youtube.com/,info,
+2025-12-02 15:32:27,places.sqlite,visit:301 reroute (permanent redirect),https://youtube.com/,https://youtube.com/,info,
+2025-12-02 15:32:28,places.sqlite,visit:301 reroute (permanent redirect),YouTube,https://www.youtube.com/,info,
+2025-12-02 15:33:05,places.sqlite,visit:Interacted with link,lan scan internal vulnerabilities - YouTube,https://www.youtube.com/results?search_query=lan+scan+internal+vulnerabilities,high,network_recon;vulnerability_research
+2025-12-02 15:33:21,places.sqlite,visit:Interacted with link,Using a LAN scan to find INTERNAL vulnerabilities,https://www.youtube.com/watch?v=GD88Pp75Klw,high,network_recon;vulnerability_research
+2025-12-02 15:33:36,places.sqlite,visit:Inputted link or selected from suggestions,youtube - Google Search,https://www.google.com/search?q=youtube&source=hp,info,
+2025-12-02 15:34:20,places.sqlite,visit:Interacted with link,threats vulnerabilities and exploits - YouTube,https://www.youtube.com/results?search_query=threats+vulnerabilities+and+exploits,medium,vulnerability_research
+2025-12-02 15:34:50,places.sqlite,visit:Interacted with link,Threats Vulnerabilities and Exploits,https://www.youtube.com/watch?v=8zSoyAmHHc4,medium,vulnerability_research
+2025-12-02 15:35:37,places.sqlite,visit:Interacted with link,AI Security Exposed: Why 95% of Companies Are Vulnerable,https://www.youtube.com/watch?v=QtwhEz-aON4,info,
+2025-12-02 15:36:20,places.sqlite,visit:Inputted link or selected from suggestions,firewall penetration testing steps methods tools - Google Search,https://www.google.com/search?q=firewall+penetration+testing+steps+methods+tools&source=hp,high,network_recon;vulnerability_research
+2025-12-02 15:36:20,formhistory.sqlite,typed:searchbar-history,firewall penetration testing steps methods tools,used 1x,high,network_recon;vulnerability_research
+2025-12-02 15:36:46,places.sqlite,visit:Interacted with link,"Firewall Penetration Testing: Steps, Methods, and Tools",https://www.youtube.com/watch?v=0Izu0J6iSoM,high,network_recon;vulnerability_research

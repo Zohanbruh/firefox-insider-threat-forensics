@@ -1,0 +1,25 @@
+id,host,name,secure,http_only,same_site,last_accessed
+5,.youtube.com,VISITOR_INFO1_LIVE,1,1,None,2025-12-02 15:36:46
+6,.youtube.com,YSC,1,1,None,2025-12-02 15:36:46
+1,.google.com,NID,1,1,None,2025-12-02 15:36:20
+2,.google.com,AEC,1,1,Strict,2025-12-02 15:33:36
+7,.youtube.com,PREF,1,0,None,2025-12-02 15:33:05
+19,developer.chrome.com,__Secure-ENID,1,1,Strict,2025-12-02 15:31:45
+14,.similarweb.com,sw_uid,1,0,None,2025-12-02 15:30:49
+15,lp.similarweb.com,_hjSession,1,0,None,2025-12-02 15:30:49
+23,.doubleclick.net,IDE,1,1,None,2025-12-02 15:30:48
+4,www.google.com,OTZ,1,0,None,2025-12-02 15:30:47
+24,.googlesyndication.com,__gads,1,0,None,2025-12-02 15:30:47
+13,requestinspector.com,ri_session,1,1,Lax,2025-12-02 15:30:26
+11,owasp.org,_ga,0,0,None,2025-12-02 15:29:52
+12,cheatsheetseries.owasp.org,_ga,0,0,None,2025-12-02 15:29:52
+8,neoquant.com,sessionid,1,1,Lax,2025-12-02 15:29:07
+9,neoquant.com,csrftoken,1,0,Strict,2025-12-02 15:29:07
+10,neoquant.com,_ga,0,0,None,2025-12-02 15:27:55
+16,www.practical-devsecops.com,wordpress_test_cookie,0,1,None,2025-12-02 15:24:15
+17,www.practical-devsecops.com,_gid,0,0,None,2025-12-02 15:24:15
+18,portswigger.net,ASP.NET_SessionId,1,1,Lax,2025-12-02 15:22:48
+20,developer.mozilla.org,django_language,1,0,Lax,2025-12-02 15:20:40
+22,apisecurity.io,_cfuvid,1,1,None,2025-12-02 15:18:55
+21,stackoverflow.com,prov,1,1,None,2025-12-02 15:17:12
+3,.google.com,SOCS,1,0,None,2025-12-02 15:16:22

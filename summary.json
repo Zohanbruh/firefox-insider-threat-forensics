@@ -1,0 +1,205 @@
+{
+  "case_id": "029",
+  "generated_utc": "2026-08-18T20:02:29Z",
+  "timezone": "UTC+01:00",
+  "evidence_dir": "/tmp/demo/working_directory/Firefox-Linux-Evidence",
+  "artefacts": [
+    "places",
+    "cookies",
+    "formhistory"
+  ],
+  "counts": {
+    "places": 52,
+    "visits": 56,
+    "searches": 19,
+    "video_visits": 4,
+    "bookmarks": 5,
+    "downloads": 1,
+    "cookies": 24,
+    "form_history": 19,
+    "timeline_events": 81,
+    "sessions": 1
+  },
+  "window": {
+    "first": "2025-12-02T15:15:40+01:00",
+    "last": "2025-12-02T15:36:46+01:00",
+    "span_seconds": 1266,
+    "event_count": 81
+  },
+  "assessment": {
+    "total_score": 419,
+    "hit_count": 114,
+    "flagged_count": 85,
+    "highest_severity": "critical",
+    "rules_triggered": {
+      "vulnerability_research": {
+        "count": 26,
+        "severity": "medium",
+        "weight": 2,
+        "examples": [
+          "NeoQuant sql error page exploit",
+          "Check API vulnerabilities using chrome DevTools network tab",
+          "sql injection cheat sheet - owasp",
+          "lan scan internal vulnerabilities",
+          "threats vulnerabilities and exploits"
+        ]
+      },
+      "sql_injection": {
+        "count": 19,
+        "severity": "high",
+        "weight": 5,
+        "examples": [
+          "NeoQuant sql error page exploit",
+          "Test sql injection using browser only",
+          "Financial api sql injection examples",
+          "sql injection cheat sheet - owasp",
+          "SQL Injection Prevention - OWASP Cheat Sheet Series https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html"
+        ]
+      },
+      "target_organisation": {
+        "count": 17,
+        "severity": "critical",
+        "weight": 5,
+        "examples": [
+          "NeoQuant sql error page exploit",
+          "neo quant",
+          "Neoquant finance - internal API docs",
+          "white papers - NeoQuant https://neoquant.com/white-papers/",
+          "http://neoquant.com/white-papers"
+        ]
+      },
+      "api_enumeration": {
+        "count": 17,
+        "severity": "high",
+        "weight": 4,
+        "examples": [
+          "Find exposed database endpoints in API",
+          "Common api parameters that leak database info",
+          "Common api vectors.pdf download",
+          "Neoquant finance - internal API docs",
+          "Neoquant finance - internal API docs - Google Search https://www.google.com/search?q=Neoquant+finance+-+internal+API+docs&source=hp"
+        ]
+      },
+      "security_tooling": {
+        "count": 17,
+        "severity": "medium",
+        "weight": 3,
+        "examples": [
+          "Check API vulnerabilities using chrome DevTools network tab",
+          "request inspector- test API requests",
+          "URLScan - analyse web behaviour",
+          "chrome devtools network inspector guide",
+          "Inspect network activity | Chrome DevTools | Chrome for developers https://developer.chrome.com/docs/devtools/network/"
+        ]
+      },
+      "network_recon": {
+        "count": 7,
+        "severity": "high",
+        "weight": 4,
+        "examples": [
+          "lan scan internal vulnerabilities",
+          "firewall penetration testing steps methods tools",
+          "Firewall Penetration Testing: Steps, Methods, and Tools https://www.youtube.com/watch?v=0Izu0J6iSoM",
+          "firewall penetration testing steps methods tools - Google Search https://www.google.com/search?q=firewall+penetration+testing+steps+methods+tools&source=hp",
+          "Using a LAN scan to find INTERNAL vulnerabilities https://www.youtube.com/watch?v=GD88Pp75Klw"
+        ]
+      },
+      "control_bypass": {
+        "count": 6,
+        "severity": "critical",
+        "weight": 5,
+        "examples": [
+          "How to force debug mode using URL parameters",
+          "Bypass client-side validation by modifying URL",
+          "Bypass client-side validation by modifying URL - Google Search https://www.google.com/search?q=Bypass+client-side+validation+by+modifying+URL&source=hp",
+          "How to force debug mode using URL parameters - Google Search https://www.google.com/search?q=How+to+force+debug+mode+using+URL+parameters&source=hp"
+        ]
+      },
+      "competitor_research": {
+        "count": 5,
+        "severity": "low",
+        "weight": 2,
+        "examples": [
+          "Competitive Analysis | Similarweb https://lp.similarweb.com/competitive-analysis/",
+          "https://lp.similarweb.com/?utm_source=google&utm_medium=cpc",
+          "white papers - NeoQuant https://neoquant.com/white-papers/",
+          "Competitive Analysis | Similarweb",
+          "white papers - NeoQuant"
+        ]
+      }
+    },
+    "interpretation": {
+      "verdict": "INCONCLUSIVE \u2014 intent cannot be established from browser artefacts alone",
+      "highest_severity": "critical",
+      "categories_observed": [
+        "api_enumeration",
+        "competitor_research",
+        "control_bypass",
+        "network_recon",
+        "security_tooling",
+        "sql_injection",
+        "target_organisation",
+        "vulnerability_research"
+      ],
+      "supporting_observations": [
+        "Security-testing research appears alongside searches naming the employing organisation, which narrows the activity from generic study toward a specific estate.",
+        "Queries about defeating client-side controls have a narrower legitimate use than general vulnerability reading."
+      ],
+      "innocent_explanations": [
+        "Authorised security testing, training or professional development.",
+        "Curiosity following a security bulletin, incident or internal announcement.",
+        "Job-related research by a developer, QA engineer or analyst."
+      ],
+      "recommended_corroboration": [
+        "Proxy / egress logs for the same window, to show whether the techniques researched were actually attempted.",
+        "Web-application and database logs for the named target systems.",
+        "The employee's role, current tickets and any authorisation to test.",
+        "Endpoint artefacts (shell history, installed tooling) outside the browser.",
+        "DLP and email/removable-media logs for any data movement."
+      ],
+      "caveat": "Presence of a search term proves the term was submitted from this profile; it does not prove who submitted it, nor that any action followed. Attribute to a person only with session, authentication or physical-access evidence."
+    },
+    "corroboration": {
+      "typed_and_in_history": [
+        "bypass client-side validation by modifying url",
+        "check api vulnerabilities using chrome devtools network tab",
+        "chrome devtools network inspector guide",
+        "common api parameters that leak database info",
+        "common api vectors.pdf download",
+        "financial api sql injection examples",
+        "find exposed database endpoints in api",
+        "firewall penetration testing steps methods tools",
+        "how to force debug mode using url parameters",
+        "neo quant",
+        "neoquant finance - internal api docs",
+        "neoquant sql error page exploit",
+        "request inspector- test api requests",
+        "sql injection cheat sheet - owasp",
+        "test sql injection using browser only"
+      ],
+      "history_only": [
+        "lan scan internal vulnerabilities",
+        "threats vulnerabilities and exploits",
+        "urlscan - analyse web behaviour",
+        "youtube"
+      ],
+      "typed_only": [
+        "api documentation",
+        "database schema",
+        "m.rao@neoquant.example",
+        "white paper"
+      ],
+      "confirmed_typed_count": 15,
+      "note": "Terms in 'typed_and_in_history' appear in both formhistory.sqlite and places.sqlite, indicating deliberate keyboard entry. Terms in 'history_only' may have originated from a redirect, a suggestion or a link click and are weaker evidence of authorship."
+    }
+  },
+  "integrity": {
+    "verdict": "PASS",
+    "checked": 50,
+    "matched": 50,
+    "mismatched": [],
+    "missing": [],
+    "unexpected": []
+  },
+  "errors": []
+}

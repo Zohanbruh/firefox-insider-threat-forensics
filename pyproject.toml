@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ffxforensics"
+version = "1.0.0"
+description = "ACPO-aligned acquisition, preservation and analysis of Mozilla Firefox browser artefacts"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = [
+    "digital-forensics", "dfir", "browser-forensics", "firefox",
+    "incident-response", "sqlite", "acpo", "insider-threat",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Legal Industry",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: System :: Forensics" ,
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov>=4.0", "ruff>=0.1.0"]
+
+[project.scripts]
+ffxforensics = "ffxforensics.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/your-username/firefox-insider-threat-forensics"
+Issues = "https://github.com/your-username/firefox-insider-threat-forensics/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q --strict-markers"
+filterwarnings = ["error::DeprecationWarning"]
+
+[tool.coverage.run]
+source = ["ffxforensics"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+exclude_lines = ["pragma: no cover", "if __name__ == .__main__.:", "raise NotImplementedError"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "C4"]
+# UP006/UP035/UP037/UP045 would rewrite `typing.List[str]` to `list[str]` and
+# `Optional[X]` to `X | None`. Both are correct on modern Python, but this
+# project deliberately supports 3.9 for locked-down forensic workstations that
+# ship an older interpreter, and explicit `Optional` reads more clearly in
+# signatures that a reviewer may be checking line by line.
+ignore = ["E501", "UP006", "UP035", "UP037", "UP045"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E402"]

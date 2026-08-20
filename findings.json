@@ -1,0 +1,1612 @@
+{
+  "schema_version": "1.0",
+  "case": {
+    "case_id": "029",
+    "examiner": "A. Adhikari",
+    "subject": "Manisha Rao",
+    "organisation": "NeoQuant Finance Limited",
+    "evidence_name": "Firefox-Linux-Evidence",
+    "exhibit_reference": "File No. 029",
+    "device": "Dell OptiPlex 7090 MT",
+    "operating_system": "Ubuntu GNU/Linux 24.04.1 LTS (64-bit)",
+    "browser": "Firefox ESR 128.13.0 (64-bit)",
+    "notes": "Synthetic reconstruction of Case 029 for testing and demonstration."
+  },
+  "generated_utc": "2026-08-18T20:02:29Z",
+  "timezone": "UTC+01:00",
+  "evidence_dir": "/tmp/demo/working_directory/Firefox-Linux-Evidence",
+  "artefacts": {
+    "places": {
+      "artefact": "places",
+      "file": "places.sqlite",
+      "path": "/tmp/demo/working_directory/Firefox-Linux-Evidence/places.sqlite",
+      "size_bytes": 81920,
+      "sha256": "34d4e62cc60c53fe795427372d7a802d34c9dc2012c0bac925116a00e6db74df",
+      "tables": [
+        "moz_anno_attributes",
+        "moz_annos",
+        "moz_bookmarks",
+        "moz_historyvisits",
+        "moz_inputhistory",
+        "moz_keywords",
+        "moz_meta",
+        "moz_origins",
+        "moz_places",
+        "sqlite_sequence"
+      ],
+      "integrity_check": "ok"
+    },
+    "cookies": {
+      "artefact": "cookies",
+      "file": "cookies.sqlite",
+      "path": "/tmp/demo/working_directory/Firefox-Linux-Evidence/cookies.sqlite",
+      "size_bytes": 12288,
+      "sha256": "383f7aa57dec1803082f628a23f9a36878719c46a16f3023009eb6f4f18179a9",
+      "tables": [
+        "moz_cookies"
+      ],
+      "integrity_check": "ok"
+    },
+    "formhistory": {
+      "artefact": "formhistory",
+      "file": "formhistory.sqlite",
+      "path": "/tmp/demo/working_directory/Firefox-Linux-Evidence/formhistory.sqlite",
+      "size_bytes": 16384,
+      "sha256": "4a9572cf0e5f324cd654506ff14fcf6f4ad0489c36d87568d235201384ca411c",
+      "tables": [
+        "moz_deleted_formhistory",
+        "moz_formhistory"
+      ],
+      "integrity_check": "ok"
+    }
+  },
+  "statistics": {
+    "places": {
+      "places": 52,
+      "visits": 56,
+      "bookmarks": 11,
+      "annotations": 2,
+      "inputhistory": 3
+    },
+    "cookies": {
+      "cookies": 24,
+      "distinct_hosts": 17,
+      "secure": 19,
+      "http_only": 12
+    },
+    "formhistory": {
+      "entries": 19,
+      "distinct_fields": 4,
+      "typed_searches": 18,
+      "total_uses": 23
+    }
+  },
+  "activity_window": {
+    "first": "2025-12-02T15:15:40+01:00",
+    "last": "2025-12-02T15:36:46+01:00",
+    "span_seconds": 1266,
+    "event_count": 81
+  },
+  "sessions": [
+    {
+      "index": 1,
+      "start": "2025-12-02T15:15:40+01:00",
+      "end": "2025-12-02T15:36:46+01:00",
+      "duration_seconds": 1266,
+      "duration_human": "21m 6s",
+      "event_count": 81,
+      "flagged_events": 67
+    }
+  ],
+  "visit_types": {
+    "1": {
+      "label": "Interacted with link",
+      "count": 29
+    },
+    "2": {
+      "label": "Inputted link or selected from suggestions",
+      "count": 19
+    },
+    "3": {
+      "label": "Accessed a bookmark",
+      "count": 0
+    },
+    "4": {
+      "label": "Referenced link (embed)",
+      "count": 0
+    },
+    "5": {
+      "label": "301 reroute (permanent redirect)",
+      "count": 3
+    },
+    "6": {
+      "label": "302 reroute (temporary redirect)",
+      "count": 5
+    }
+  },
+  "searches": [
+    {
+      "query": "NeoQuant sql error page exploit",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=NeoQuant+sql+error+page+exploit&source=hp",
+      "last_visited": "2025-12-02T15:16:22+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "Test sql injection using browser only",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=Test+sql+injection+using+browser+only&source=hp",
+      "last_visited": "2025-12-02T15:17:40+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "Find exposed database endpoints in API",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=Find+exposed+database+endpoints+in+API&source=hp",
+      "last_visited": "2025-12-02T15:18:31+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "Financial api sql injection examples",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=Financial+api+sql+injection+examples&source=hp",
+      "last_visited": "2025-12-02T15:19:06+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "How to force debug mode using URL parameters",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=How+to+force+debug+mode+using+URL+parameters&source=hp",
+      "last_visited": "2025-12-02T15:19:41+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "Bypass client-side validation by modifying URL",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=Bypass+client-side+validation+by+modifying+URL&source=hp",
+      "last_visited": "2025-12-02T15:20:16+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "Common api parameters that leak database info",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=Common+api+parameters+that+leak+database+info&source=hp",
+      "last_visited": "2025-12-02T15:21:00+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "Check API vulnerabilities using chrome DevTools network tab",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=Check+API+vulnerabilities+using+chrome+DevTools+network+tab&source=hp",
+      "last_visited": "2025-12-02T15:21:49+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "Common api vectors.pdf download",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=Common+api+vectors.pdf+download&source=hp",
+      "last_visited": "2025-12-02T15:23:11+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "neo quant",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=neo+quant&source=hp",
+      "last_visited": "2025-12-02T15:25:58+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "Neoquant finance - internal API docs",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=Neoquant+finance+-+internal+API+docs&source=hp",
+      "last_visited": "2025-12-02T15:28:57+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "sql injection cheat sheet - owasp",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=sql+injection+cheat+sheet+-+owasp&source=hp",
+      "last_visited": "2025-12-02T15:29:31+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "request inspector- test API requests",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=request+inspector-+test+API+requests&source=hp",
+      "last_visited": "2025-12-02T15:30:09+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "URLScan - analyse web behaviour",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=URLScan+-+analyse+web+behaviour&source=hp",
+      "last_visited": "2025-12-02T15:30:39+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "chrome devtools network inspector guide",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=chrome+devtools+network+inspector+guide&source=hp",
+      "last_visited": "2025-12-02T15:31:14+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "lan scan internal vulnerabilities",
+      "engine": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=lan+scan+internal+vulnerabilities",
+      "last_visited": "2025-12-02T15:33:05+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "youtube",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=youtube&source=hp",
+      "last_visited": "2025-12-02T15:33:36+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "threats vulnerabilities and exploits",
+      "engine": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=threats+vulnerabilities+and+exploits",
+      "last_visited": "2025-12-02T15:34:20+01:00",
+      "visit_count": 1,
+      "source": "places"
+    },
+    {
+      "query": "firewall penetration testing steps methods tools",
+      "engine": "Google",
+      "url": "https://www.google.com/search?q=firewall+penetration+testing+steps+methods+tools&source=hp",
+      "last_visited": "2025-12-02T15:36:20+01:00",
+      "visit_count": 1,
+      "source": "places"
+    }
+  ],
+  "video_visits": [
+    {
+      "visit_id": 56,
+      "place_id": 52,
+      "url": "https://www.youtube.com/watch?v=0Izu0J6iSoM",
+      "title": "Firewall Penetration Testing: Steps, Methods, and Tools",
+      "visit_date": "2025-12-02T15:36:46+01:00",
+      "visit_type": 1,
+      "from_visit": 55
+    },
+    {
+      "visit_id": 54,
+      "place_id": 50,
+      "url": "https://www.youtube.com/watch?v=QtwhEz-aON4",
+      "title": "AI Security Exposed: Why 95% of Companies Are Vulnerable",
+      "visit_date": "2025-12-02T15:35:37+01:00",
+      "visit_type": 1,
+      "from_visit": 53
+    },
+    {
+      "visit_id": 53,
+      "place_id": 49,
+      "url": "https://www.youtube.com/watch?v=8zSoyAmHHc4",
+      "title": "Threats Vulnerabilities and Exploits",
+      "visit_date": "2025-12-02T15:34:50+01:00",
+      "visit_type": 1,
+      "from_visit": 52
+    },
+    {
+      "visit_id": 50,
+      "place_id": 46,
+      "url": "https://www.youtube.com/watch?v=GD88Pp75Klw",
+      "title": "Using a LAN scan to find INTERNAL vulnerabilities",
+      "visit_date": "2025-12-02T15:33:21+01:00",
+      "visit_type": 1,
+      "from_visit": 49
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": 11,
+      "parent": 3,
+      "title": "Inspect network activity | Chrome DevTools | Chrome for developers",
+      "url": "https://developer.chrome.com/docs/devtools/network/",
+      "type": 1,
+      "date_added": "2025-12-02T15:31:22+01:00",
+      "last_modified": "2025-12-02T15:31:22+01:00",
+      "folder_path": "toolbar"
+    },
+    {
+      "id": 10,
+      "parent": 3,
+      "title": "Competitive Analysis | Similarweb",
+      "url": "https://lp.similarweb.com/competitive-analysis/",
+      "type": 1,
+      "date_added": "2025-12-02T15:30:54+01:00",
+      "last_modified": "2025-12-02T15:30:54+01:00",
+      "folder_path": "toolbar"
+    },
+    {
+      "id": 9,
+      "parent": 3,
+      "title": "Web Request Inspector & Probe Service | Request Inspector",
+      "url": "https://requestinspector.com/",
+      "type": 1,
+      "date_added": "2025-12-02T15:30:20+01:00",
+      "last_modified": "2025-12-02T15:30:20+01:00",
+      "folder_path": "toolbar"
+    },
+    {
+      "id": 8,
+      "parent": 3,
+      "title": "SQL Injection | OWASP Foundation",
+      "url": "https://owasp.org/www-community/attacks/SQL_Injection",
+      "type": 1,
+      "date_added": "2025-12-02T15:29:45+01:00",
+      "last_modified": "2025-12-02T15:29:45+01:00",
+      "folder_path": "toolbar"
+    },
+    {
+      "id": 7,
+      "parent": 3,
+      "title": "white papers - NeoQuant",
+      "url": "https://neoquant.com/white-papers/",
+      "type": 1,
+      "date_added": "2025-12-02T15:29:11+01:00",
+      "last_modified": "2025-12-02T15:29:11+01:00",
+      "folder_path": "toolbar"
+    }
+  ],
+  "downloads": [
+    {
+      "place_id": 21,
+      "source_url": "https://www.practical-devsecops.com/downloads/Common-API-Attack-Vectors.pdf",
+      "target_path": "file:///home/users/mrao/Downloads/Common-API-Attack-Vectors.pdf",
+      "file_name": "Common-API-Attack-Vectors.pdf",
+      "file_size": 1843277,
+      "started": "2025-12-02T15:24:02+01:00",
+      "ended": "2025-12-02T15:24:09+01:00"
+    }
+  ],
+  "cookie_hosts": [
+    {
+      "host": "youtube.com",
+      "cookies": 3,
+      "last_accessed": "2025-12-02T15:36:46+01:00",
+      "third_party": false
+    },
+    {
+      "host": "google.com",
+      "cookies": 3,
+      "last_accessed": "2025-12-02T15:36:20+01:00",
+      "third_party": false
+    },
+    {
+      "host": "neoquant.com",
+      "cookies": 3,
+      "last_accessed": "2025-12-02T15:29:07+01:00",
+      "third_party": false
+    },
+    {
+      "host": "www.practical-devsecops.com",
+      "cookies": 2,
+      "last_accessed": "2025-12-02T15:24:15+01:00",
+      "third_party": false
+    },
+    {
+      "host": "developer.chrome.com",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:31:45+01:00",
+      "third_party": false
+    },
+    {
+      "host": "similarweb.com",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:30:49+01:00",
+      "third_party": false
+    },
+    {
+      "host": "lp.similarweb.com",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:30:49+01:00",
+      "third_party": false
+    },
+    {
+      "host": "doubleclick.net",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:30:48+01:00",
+      "third_party": true
+    },
+    {
+      "host": "www.google.com",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:30:47+01:00",
+      "third_party": false
+    },
+    {
+      "host": "googlesyndication.com",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:30:47+01:00",
+      "third_party": true
+    },
+    {
+      "host": "requestinspector.com",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:30:26+01:00",
+      "third_party": false
+    },
+    {
+      "host": "owasp.org",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:29:52+01:00",
+      "third_party": false
+    },
+    {
+      "host": "cheatsheetseries.owasp.org",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:29:52+01:00",
+      "third_party": false
+    },
+    {
+      "host": "portswigger.net",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:22:48+01:00",
+      "third_party": false
+    },
+    {
+      "host": "developer.mozilla.org",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:20:40+01:00",
+      "third_party": false
+    },
+    {
+      "host": "apisecurity.io",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:18:55+01:00",
+      "third_party": false
+    },
+    {
+      "host": "stackoverflow.com",
+      "cookies": 1,
+      "last_accessed": "2025-12-02T15:17:12+01:00",
+      "third_party": false
+    }
+  ],
+  "form_history": [
+    {
+      "id": 15,
+      "fieldname": "searchbar-history",
+      "value": "firewall penetration testing steps methods tools",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:35:20+01:00",
+      "last_used": "2025-12-02T15:36:20+01:00"
+    },
+    {
+      "id": 14,
+      "fieldname": "searchbar-history",
+      "value": "chrome devtools network inspector guide",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:30:14+01:00",
+      "last_used": "2025-12-02T15:31:14+01:00"
+    },
+    {
+      "id": 19,
+      "fieldname": "email",
+      "value": "m.rao@neoquant.example",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:29:12+01:00",
+      "last_used": "2025-12-02T15:30:12+01:00"
+    },
+    {
+      "id": 13,
+      "fieldname": "searchbar-history",
+      "value": "request inspector- test API requests",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:29:09+01:00",
+      "last_used": "2025-12-02T15:30:09+01:00"
+    },
+    {
+      "id": 12,
+      "fieldname": "searchbar-history",
+      "value": "sql injection cheat sheet - owasp",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:28:31+01:00",
+      "last_used": "2025-12-02T15:29:31+01:00"
+    },
+    {
+      "id": 18,
+      "fieldname": "search",
+      "value": "white paper",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:28:09+01:00",
+      "last_used": "2025-12-02T15:29:09+01:00"
+    },
+    {
+      "id": 11,
+      "fieldname": "searchbar-history",
+      "value": "Neoquant finance - internal API docs",
+      "times_used": 2,
+      "first_used": "2025-12-02T15:27:57+01:00",
+      "last_used": "2025-12-02T15:28:57+01:00"
+    },
+    {
+      "id": 17,
+      "fieldname": "q",
+      "value": "database schema",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:26:41+01:00",
+      "last_used": "2025-12-02T15:27:41+01:00"
+    },
+    {
+      "id": 16,
+      "fieldname": "q",
+      "value": "api documentation",
+      "times_used": 3,
+      "first_used": "2025-12-02T15:26:06+01:00",
+      "last_used": "2025-12-02T15:27:06+01:00"
+    },
+    {
+      "id": 10,
+      "fieldname": "searchbar-history",
+      "value": "neo quant",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:24:58+01:00",
+      "last_used": "2025-12-02T15:25:58+01:00"
+    },
+    {
+      "id": 9,
+      "fieldname": "searchbar-history",
+      "value": "Common api vectors.pdf download",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:22:11+01:00",
+      "last_used": "2025-12-02T15:23:11+01:00"
+    },
+    {
+      "id": 8,
+      "fieldname": "searchbar-history",
+      "value": "Check API vulnerabilities using chrome DevTools network tab",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:20:49+01:00",
+      "last_used": "2025-12-02T15:21:49+01:00"
+    },
+    {
+      "id": 7,
+      "fieldname": "searchbar-history",
+      "value": "Common api parameters that leak database info",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:20:00+01:00",
+      "last_used": "2025-12-02T15:21:00+01:00"
+    },
+    {
+      "id": 6,
+      "fieldname": "searchbar-history",
+      "value": "Bypass client-side validation by modifying URL",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:19:16+01:00",
+      "last_used": "2025-12-02T15:20:16+01:00"
+    },
+    {
+      "id": 5,
+      "fieldname": "searchbar-history",
+      "value": "How to force debug mode using URL parameters",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:18:41+01:00",
+      "last_used": "2025-12-02T15:19:41+01:00"
+    },
+    {
+      "id": 4,
+      "fieldname": "searchbar-history",
+      "value": "Financial api sql injection examples",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:18:06+01:00",
+      "last_used": "2025-12-02T15:19:06+01:00"
+    },
+    {
+      "id": 3,
+      "fieldname": "searchbar-history",
+      "value": "Find exposed database endpoints in API",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:17:31+01:00",
+      "last_used": "2025-12-02T15:18:31+01:00"
+    },
+    {
+      "id": 2,
+      "fieldname": "searchbar-history",
+      "value": "Test sql injection using browser only",
+      "times_used": 2,
+      "first_used": "2025-12-02T15:16:40+01:00",
+      "last_used": "2025-12-02T15:17:40+01:00"
+    },
+    {
+      "id": 1,
+      "fieldname": "searchbar-history",
+      "value": "NeoQuant sql error page exploit",
+      "times_used": 1,
+      "first_used": "2025-12-02T15:15:22+01:00",
+      "last_used": "2025-12-02T15:16:22+01:00"
+    }
+  ],
+  "assessment": {
+    "total_score": 419,
+    "hit_count": 114,
+    "flagged_count": 85,
+    "highest_severity": "critical",
+    "rules_triggered": {
+      "vulnerability_research": {
+        "count": 26,
+        "severity": "medium",
+        "weight": 2,
+        "examples": [
+          "NeoQuant sql error page exploit",
+          "Check API vulnerabilities using chrome DevTools network tab",
+          "sql injection cheat sheet - owasp",
+          "lan scan internal vulnerabilities",
+          "threats vulnerabilities and exploits"
+        ]
+      },
+      "sql_injection": {
+        "count": 19,
+        "severity": "high",
+        "weight": 5,
+        "examples": [
+          "NeoQuant sql error page exploit",
+          "Test sql injection using browser only",
+          "Financial api sql injection examples",
+          "sql injection cheat sheet - owasp",
+          "SQL Injection Prevention - OWASP Cheat Sheet Series https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html"
+        ]
+      },
+      "target_organisation": {
+        "count": 17,
+        "severity": "critical",
+        "weight": 5,
+        "examples": [
+          "NeoQuant sql error page exploit",
+          "neo quant",
+          "Neoquant finance - internal API docs",
+          "white papers - NeoQuant https://neoquant.com/white-papers/",
+          "http://neoquant.com/white-papers"
+        ]
+      },
+      "api_enumeration": {
+        "count": 17,
+        "severity": "high",
+        "weight": 4,
+        "examples": [
+          "Find exposed database endpoints in API",
+          "Common api parameters that leak database info",
+          "Common api vectors.pdf download",
+          "Neoquant finance - internal API docs",
+          "Neoquant finance - internal API docs - Google Search https://www.google.com/search?q=Neoquant+finance+-+internal+API+docs&source=hp"
+        ]
+      },
+      "security_tooling": {
+        "count": 17,
+        "severity": "medium",
+        "weight": 3,
+        "examples": [
+          "Check API vulnerabilities using chrome DevTools network tab",
+          "request inspector- test API requests",
+          "URLScan - analyse web behaviour",
+          "chrome devtools network inspector guide",
+          "Inspect network activity | Chrome DevTools | Chrome for developers https://developer.chrome.com/docs/devtools/network/"
+        ]
+      },
+      "network_recon": {
+        "count": 7,
+        "severity": "high",
+        "weight": 4,
+        "examples": [
+          "lan scan internal vulnerabilities",
+          "firewall penetration testing steps methods tools",
+          "Firewall Penetration Testing: Steps, Methods, and Tools https://www.youtube.com/watch?v=0Izu0J6iSoM",
+          "firewall penetration testing steps methods tools - Google Search https://www.google.com/search?q=firewall+penetration+testing+steps+methods+tools&source=hp",
+          "Using a LAN scan to find INTERNAL vulnerabilities https://www.youtube.com/watch?v=GD88Pp75Klw"
+        ]
+      },
+      "control_bypass": {
+        "count": 6,
+        "severity": "critical",
+        "weight": 5,
+        "examples": [
+          "How to force debug mode using URL parameters",
+          "Bypass client-side validation by modifying URL",
+          "Bypass client-side validation by modifying URL - Google Search https://www.google.com/search?q=Bypass+client-side+validation+by+modifying+URL&source=hp",
+          "How to force debug mode using URL parameters - Google Search https://www.google.com/search?q=How+to+force+debug+mode+using+URL+parameters&source=hp"
+        ]
+      },
+      "competitor_research": {
+        "count": 5,
+        "severity": "low",
+        "weight": 2,
+        "examples": [
+          "Competitive Analysis | Similarweb https://lp.similarweb.com/competitive-analysis/",
+          "https://lp.similarweb.com/?utm_source=google&utm_medium=cpc",
+          "white papers - NeoQuant https://neoquant.com/white-papers/",
+          "Competitive Analysis | Similarweb",
+          "white papers - NeoQuant"
+        ]
+      }
+    },
+    "flagged_items": [
+      {
+        "text": "NeoQuant sql error page exploit",
+        "source": "search",
+        "score": 12,
+        "rules": [
+          "sql_injection",
+          "vulnerability_research",
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "NeoQuant sql error page exploit - Google Search https://www.google.com/search?q=NeoQuant+sql+error+page+exploit&source=hp",
+        "source": "history",
+        "score": 12,
+        "rules": [
+          "sql_injection",
+          "vulnerability_research",
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "NeoQuant sql error page exploit",
+        "source": "form-history",
+        "score": 12,
+        "rules": [
+          "sql_injection",
+          "vulnerability_research",
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "Neoquant finance - internal API docs",
+        "source": "search",
+        "score": 9,
+        "rules": [
+          "api_enumeration",
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "Neoquant finance - internal API docs - Google Search https://www.google.com/search?q=Neoquant+finance+-+internal+API+docs&source=hp",
+        "source": "history",
+        "score": 9,
+        "rules": [
+          "api_enumeration",
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "Neoquant finance - internal API docs",
+        "source": "form-history",
+        "score": 9,
+        "rules": [
+          "api_enumeration",
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "sql injection cheat sheet - owasp",
+        "source": "search",
+        "score": 7,
+        "rules": [
+          "sql_injection",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "SQL Injection Prevention - OWASP Cheat Sheet Series https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html",
+        "source": "history",
+        "score": 7,
+        "rules": [
+          "sql_injection",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "SQL Injection | OWASP Foundation https://owasp.org/www-community/attacks/SQL_Injection",
+        "source": "history",
+        "score": 7,
+        "rules": [
+          "sql_injection",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "sql injection cheat sheet - owasp - Google Search https://www.google.com/search?q=sql+injection+cheat+sheet+-+owasp&source=hp",
+        "source": "history",
+        "score": 7,
+        "rules": [
+          "sql_injection",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "white papers - NeoQuant https://neoquant.com/white-papers/",
+        "source": "history",
+        "score": 7,
+        "rules": [
+          "target_organisation",
+          "competitor_research"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "SQL injection cheat sheet | Web Security Academy https://portswigger.net/web-security/sql-injection/cheat-sheet",
+        "source": "history",
+        "score": 7,
+        "rules": [
+          "sql_injection",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "SQL Injection | OWASP Foundation",
+        "source": "bookmark",
+        "score": 7,
+        "rules": [
+          "sql_injection",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "white papers - NeoQuant",
+        "source": "bookmark",
+        "score": 7,
+        "rules": [
+          "target_organisation",
+          "competitor_research"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "sql injection cheat sheet - owasp",
+        "source": "form-history",
+        "score": 7,
+        "rules": [
+          "sql_injection",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "lan scan internal vulnerabilities",
+        "source": "search",
+        "score": 6,
+        "rules": [
+          "network_recon",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "firewall penetration testing steps methods tools",
+        "source": "search",
+        "score": 6,
+        "rules": [
+          "network_recon",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Firewall Penetration Testing: Steps, Methods, and Tools https://www.youtube.com/watch?v=0Izu0J6iSoM",
+        "source": "history",
+        "score": 6,
+        "rules": [
+          "network_recon",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "firewall penetration testing steps methods tools - Google Search https://www.google.com/search?q=firewall+penetration+testing+steps+methods+tools&source=hp",
+        "source": "history",
+        "score": 6,
+        "rules": [
+          "network_recon",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Using a LAN scan to find INTERNAL vulnerabilities https://www.youtube.com/watch?v=GD88Pp75Klw",
+        "source": "history",
+        "score": 6,
+        "rules": [
+          "network_recon",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "lan scan internal vulnerabilities - YouTube https://www.youtube.com/results?search_query=lan+scan+internal+vulnerabilities",
+        "source": "history",
+        "score": 6,
+        "rules": [
+          "network_recon",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "OWASP API Security Top 10 2023 https://owasp.org/API-Security/editions/2023/en/0x11-t10/",
+        "source": "history",
+        "score": 6,
+        "rules": [
+          "api_enumeration",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "firewall penetration testing steps methods tools",
+        "source": "form-history",
+        "score": 6,
+        "rules": [
+          "network_recon",
+          "vulnerability_research"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Test sql injection using browser only",
+        "source": "search",
+        "score": 5,
+        "rules": [
+          "sql_injection"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Financial api sql injection examples",
+        "source": "search",
+        "score": 5,
+        "rules": [
+          "sql_injection"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "How to force debug mode using URL parameters",
+        "source": "search",
+        "score": 5,
+        "rules": [
+          "control_bypass"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "Bypass client-side validation by modifying URL",
+        "source": "search",
+        "score": 5,
+        "rules": [
+          "control_bypass"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "Check API vulnerabilities using chrome DevTools network tab",
+        "source": "search",
+        "score": 5,
+        "rules": [
+          "security_tooling",
+          "vulnerability_research"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "neo quant",
+        "source": "search",
+        "score": 5,
+        "rules": [
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "http://neoquant.com/white-papers",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "Contact - NeoQuant https://neoquant.com/contact/",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "About us - NeoQuant https://neoquant.com/about/",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "Data Platform - NeoQuant https://neoquant.com/products/data-platform/",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "NeoQuant - Data Engineering & Digital Finance https://neoquant.com/",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "neo quant - Google Search https://www.google.com/search?q=neo+quant&source=hp",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "What is SQL Injection? Tutorial & Examples | Web Security Academy https://portswigger.net/web-security/sql-injection",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "sql_injection"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Check API vulnerabilities using chrome DevTools network tab - Google Search https://www.google.com/search?q=Check+API+vulnerabilities+using+chrome+DevTools+network+tab&source=hp",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "security_tooling",
+          "vulnerability_research"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "Bypass client-side validation by modifying URL - Google Search https://www.google.com/search?q=Bypass+client-side+validation+by+modifying+URL&source=hp",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "control_bypass"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "How to force debug mode using URL parameters - Google Search https://www.google.com/search?q=How+to+force+debug+mode+using+URL+parameters&source=hp",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "control_bypass"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "Financial api sql injection examples - Google Search https://www.google.com/search?q=Financial+api+sql+injection+examples&source=hp",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "sql_injection"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Test sql injection using browser only - Google Search https://www.google.com/search?q=Test+sql+injection+using+browser+only&source=hp",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "sql_injection"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "How does the SQL injection from the Bobby Tables XKCD comic work? - Stack Overflow https://stackoverflow.com/questions/332365/how-does-the-sql-injection-from-bobby-tables-work",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "sql_injection"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "What is SQL Injection? Tutorial & Examples | Web Security Academy https://portswigger.net/web-security/sql-injection",
+        "source": "history",
+        "score": 5,
+        "rules": [
+          "sql_injection"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "m.rao@neoquant.example",
+        "source": "form-history",
+        "score": 5,
+        "rules": [
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "neo quant",
+        "source": "form-history",
+        "score": 5,
+        "rules": [
+          "target_organisation"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "Check API vulnerabilities using chrome DevTools network tab",
+        "source": "form-history",
+        "score": 5,
+        "rules": [
+          "security_tooling",
+          "vulnerability_research"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "Bypass client-side validation by modifying URL",
+        "source": "form-history",
+        "score": 5,
+        "rules": [
+          "control_bypass"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "How to force debug mode using URL parameters",
+        "source": "form-history",
+        "score": 5,
+        "rules": [
+          "control_bypass"
+        ],
+        "severity": "critical"
+      },
+      {
+        "text": "Financial api sql injection examples",
+        "source": "form-history",
+        "score": 5,
+        "rules": [
+          "sql_injection"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Test sql injection using browser only",
+        "source": "form-history",
+        "score": 5,
+        "rules": [
+          "sql_injection"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Find exposed database endpoints in API",
+        "source": "search",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Common api parameters that leak database info",
+        "source": "search",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Common api vectors.pdf download",
+        "source": "search",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "API Security Fundamentals ebook - Practical DevSecOps https://www.practical-devsecops.com/api-security-fundamentals/",
+        "source": "history",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Common api vectors.pdf download - Google Search https://www.google.com/search?q=Common+api+vectors.pdf+download&source=hp",
+        "source": "history",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Common api parameters that leak database info - Google Search https://www.google.com/search?q=Common+api+parameters+that+leak+database+info&source=hp",
+        "source": "history",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "API Security News https://apisecurity.io/",
+        "source": "history",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "API Security News http://apisecurity.io/",
+        "source": "history",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Find exposed database endpoints in API - Google Search https://www.google.com/search?q=Find+exposed+database+endpoints+in+API&source=hp",
+        "source": "history",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "api documentation",
+        "source": "form-history",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Common api vectors.pdf download",
+        "source": "form-history",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Common api parameters that leak database info",
+        "source": "form-history",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "Find exposed database endpoints in API",
+        "source": "form-history",
+        "score": 4,
+        "rules": [
+          "api_enumeration"
+        ],
+        "severity": "high"
+      },
+      {
+        "text": "request inspector- test API requests",
+        "source": "search",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "URLScan - analyse web behaviour",
+        "source": "search",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "chrome devtools network inspector guide",
+        "source": "search",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "Inspect network activity | Chrome DevTools | Chrome for developers https://developer.chrome.com/docs/devtools/network/",
+        "source": "history",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "Inspect network activity | Chrome DevTools | Chrome for developers https://developer.chrome.com/docs/devtools/network/",
+        "source": "history",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "chrome devtools network inspector guide - Google Search https://www.google.com/search?q=chrome+devtools+network+inspector+guide&source=hp",
+        "source": "history",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "URLScan - analyse web behaviour - Google Search https://www.google.com/search?q=URLScan+-+analyse+web+behaviour&source=hp",
+        "source": "history",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "Web Request Inspector & Probe Service | Request Inspector https://requestinspector.com/",
+        "source": "history",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "Web Request Inspector & Probe Service | Request Inspector https://requestinspector.com/",
+        "source": "history",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "request inspector- test API requests - Google Search https://www.google.com/search?q=request+inspector-+test+API+requests&source=hp",
+        "source": "history",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "Inspect network activity | Chrome DevTools | Chrome for developers",
+        "source": "bookmark",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "Web Request Inspector & Probe Service | Request Inspector",
+        "source": "bookmark",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "chrome devtools network inspector guide",
+        "source": "form-history",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "request inspector- test API requests",
+        "source": "form-history",
+        "score": 3,
+        "rules": [
+          "security_tooling"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "threats vulnerabilities and exploits",
+        "source": "search",
+        "score": 2,
+        "rules": [
+          "vulnerability_research"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "Threats Vulnerabilities and Exploits https://www.youtube.com/watch?v=8zSoyAmHHc4",
+        "source": "history",
+        "score": 2,
+        "rules": [
+          "vulnerability_research"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "threats vulnerabilities and exploits - YouTube https://www.youtube.com/results?search_query=threats+vulnerabilities+and+exploits",
+        "source": "history",
+        "score": 2,
+        "rules": [
+          "vulnerability_research"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "Competitive Analysis | Similarweb https://lp.similarweb.com/competitive-analysis/",
+        "source": "history",
+        "score": 2,
+        "rules": [
+          "competitor_research"
+        ],
+        "severity": "low"
+      },
+      {
+        "text": "https://lp.similarweb.com/?utm_source=google&utm_medium=cpc",
+        "source": "history",
+        "score": 2,
+        "rules": [
+          "competitor_research"
+        ],
+        "severity": "low"
+      },
+      {
+        "text": "OWASP Web Security Testing Guide | OWASP Foundation https://owasp.org/www-project-web-security-testing-guide/",
+        "source": "history",
+        "score": 2,
+        "rules": [
+          "vulnerability_research"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "OWASP Web Security Testing Guide | OWASP Foundation https://owasp.org/www-project-web-security-testing-guide/",
+        "source": "history",
+        "score": 2,
+        "rules": [
+          "vulnerability_research"
+        ],
+        "severity": "medium"
+      },
+      {
+        "text": "Competitive Analysis | Similarweb",
+        "source": "bookmark",
+        "score": 2,
+        "rules": [
+          "competitor_research"
+        ],
+        "severity": "low"
+      }
+    ],
+    "interpretation": {
+      "verdict": "INCONCLUSIVE \u2014 intent cannot be established from browser artefacts alone",
+      "highest_severity": "critical",
+      "categories_observed": [
+        "api_enumeration",
+        "competitor_research",
+        "control_bypass",
+        "network_recon",
+        "security_tooling",
+        "sql_injection",
+        "target_organisation",
+        "vulnerability_research"
+      ],
+      "supporting_observations": [
+        "Security-testing research appears alongside searches naming the employing organisation, which narrows the activity from generic study toward a specific estate.",
+        "Queries about defeating client-side controls have a narrower legitimate use than general vulnerability reading."
+      ],
+      "innocent_explanations": [
+        "Authorised security testing, training or professional development.",
+        "Curiosity following a security bulletin, incident or internal announcement.",
+        "Job-related research by a developer, QA engineer or analyst."
+      ],
+      "recommended_corroboration": [
+        "Proxy / egress logs for the same window, to show whether the techniques researched were actually attempted.",
+        "Web-application and database logs for the named target systems.",
+        "The employee's role, current tickets and any authorisation to test.",
+        "Endpoint artefacts (shell history, installed tooling) outside the browser.",
+        "DLP and email/removable-media logs for any data movement."
+      ],
+      "caveat": "Presence of a search term proves the term was submitted from this profile; it does not prove who submitted it, nor that any action followed. Attribute to a person only with session, authentication or physical-access evidence."
+    },
+    "corroboration": {
+      "typed_and_in_history": [
+        "bypass client-side validation by modifying url",
+        "check api vulnerabilities using chrome devtools network tab",
+        "chrome devtools network inspector guide",
+        "common api parameters that leak database info",
+        "common api vectors.pdf download",
+        "financial api sql injection examples",
+        "find exposed database endpoints in api",
+        "firewall penetration testing steps methods tools",
+        "how to force debug mode using url parameters",
+        "neo quant",
+        "neoquant finance - internal api docs",
+        "neoquant sql error page exploit",
+        "request inspector- test api requests",
+        "sql injection cheat sheet - owasp",
+        "test sql injection using browser only"
+      ],
+      "history_only": [
+        "lan scan internal vulnerabilities",
+        "threats vulnerabilities and exploits",
+        "urlscan - analyse web behaviour",
+        "youtube"
+      ],
+      "typed_only": [
+        "api documentation",
+        "database schema",
+        "m.rao@neoquant.example",
+        "white paper"
+      ],
+      "confirmed_typed_count": 15,
+      "note": "Terms in 'typed_and_in_history' appear in both formhistory.sqlite and places.sqlite, indicating deliberate keyboard entry. Terms in 'history_only' may have originated from a redirect, a suggestion or a link click and are weaker evidence of authorship."
+    }
+  },
+  "integrity": {
+    "verdict": "PASS",
+    "checked": 50,
+    "matched": 50,
+    "mismatched": [],
+    "missing": [],
+    "unexpected": []
+  },
+  "errors": []
+}

@@ -1,0 +1,7 @@
+visit_category,meaning,web_presence_count
+1,Interacted with link,29
+2,Inputted link or selected from suggestions,19
+3,Accessed a bookmark,0
+4,Referenced link (embed),0
+5,301 reroute (permanent redirect),3
+6,302 reroute (temporary redirect),5

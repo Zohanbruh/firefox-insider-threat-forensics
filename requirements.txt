@@ -1,0 +1,7 @@
+# ffxforensics has NO runtime dependencies.
+#
+# This is deliberate: forensic workstations are frequently air-gapped and
+# locked down, and every third-party package is another thing an opposing
+# expert can question. The toolkit runs on a stock Python 3.9+ interpreter.
+#
+# For development and testing only, see requirements-dev.txt.
